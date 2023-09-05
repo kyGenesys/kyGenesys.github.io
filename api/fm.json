@@ -1,5 +1,5 @@
 {
-  "ignoreRealQueues": true,
+  "ignoreRealQueues": false,
   "testQueueResponse": {
     "ResponseMetadata": {
         "RequestId": "fdf36676-f0d2-59f9-9f9e-3b3a5235ff91"
