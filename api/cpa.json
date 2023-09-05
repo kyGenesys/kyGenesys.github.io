@@ -1,4 +1,7 @@
 {
   "sftp": false,
-  "ecis": false
+  "ecis": false,
+  "ttlOpts": {
+    "num": 10,
+    "units": "minutes"
 }
