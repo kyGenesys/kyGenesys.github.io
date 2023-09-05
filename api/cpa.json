@@ -4,4 +4,18 @@
   "ttlOpts": {
     "num": 10,
     "units": "minutes"
+},
+  "tokenValidationResponse": {
+                data: {
+                    individual: {
+                        lastName: 'TestLastName',
+                        firstName: 'TestFirstName',
+                        individualNumber: '00000000',
+                    },
+                    caseNumber: '99999999',
+                    tokenNumber: tokenNumber,
+                    applicationNumber: '10101010',
+                    reapplicationDueDate: '2023-12-30T13:00:00.000Z'
+                }
+            }
 }
