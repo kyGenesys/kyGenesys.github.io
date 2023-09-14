@@ -3,7 +3,7 @@
 <head>
   <title>Lambda Trigger</title>
   <style>
-    #runButton, #clearButton {
+    #checkRecordingsButton, #handleErrorsButton, #clearButton {
       background: #0e0b22;
       color: #fff;
       padding: 0.6rem;
@@ -11,7 +11,7 @@
       border: none;
       border-radius: 4px;
     }
-    #runButton:hover, #clearButton:hover {
+    #checkRecordingsButton:hover, #handleErrorsButton:hover, #clearButton:hover {
       cursor: pointer;
       background: #1e1d25;
     }
@@ -23,22 +23,29 @@
   </style>
 </head>
 <body>
-  <button id="runButton">Run</button>
-  <pre id="resultBox"></pre>
-  <button id="clearButton">Clear</button>
+  <button id="checkRecordingsButton">Check Recordings</button>
+  <button id="handleErrorsButton">Handle Errors</button>
+<!--   <pre id="resultBox"></pre> -->
+<!--   <button id="clearButton">Clear</button> -->
 
   <script>
-    document.getElementById('runButton').addEventListener('click', function() {
+    document.getElementById('checkRecordingsButton').addEventListener('click', function() {
       fetch('https://cao7xsu422.execute-api.us-west-2.amazonaws.com/test', {
         method: 'POST',
         body: JSON.stringify({})
-      })
-      .then(response => response.json())
-      .then(data => {
-        document.getElementById('resultBox').textContent = JSON.stringify(data, null, 2);
-      })
-      .catch(error => console.error('Error:', error));
+      // })
+      // .then(response => response.json())
+      // .then(data => {
+      //   document.getElementById('resultBox').textContent = JSON.stringify(data, null, 2);
+      // })
+      // .catch(error => console.error('Error:', error));
     });
+
+    document.getElementById('handleErrorsButton').addEventListener('click', function() {
+      fetch(' https://fg4e918v12.execute-api.us-west-2.amazonaws.com/test', {
+        method: 'POST',
+        body: JSON.stringify({})
+      })
 
     document.getElementById('clearButton').addEventListener('click', function() {
       document.getElementById('resultBox').textContent = '';
