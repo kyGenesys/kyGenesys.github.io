@@ -40,12 +40,14 @@
       // })
       // .catch(error => console.error('Error:', error));
     });
+    });
 
     document.getElementById('handleErrorsButton').addEventListener('click', function() {
       fetch(' https://fg4e918v12.execute-api.us-west-2.amazonaws.com/test', {
         method: 'POST',
         body: JSON.stringify({})
       })
+    });
 
     document.getElementById('clearButton').addEventListener('click', function() {
       document.getElementById('resultBox').textContent = '';
