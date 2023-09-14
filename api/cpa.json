@@ -1,6 +1,6 @@
 {
   "sftp": false,
-  "ecis": false,
+  "ecis": true,
   "ttlOpts": {
     "num": 10,
     "units": "minutes"
