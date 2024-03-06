@@ -2,23 +2,23 @@
   "ignoreRealQueues": false,
   "testQueueResponse": {
     "ResponseMetadata": {
-        "RequestId": "fdf36676-f0d2-59f9-9f9e-3b3a5235ff91"
+        "RequestId": "123456789987654321"
     },
     "Messages": [
         {
-            "MessageId": "18912dfe-314e-4475-ad53-ef22bd109112",
-            "ReceiptHandle": "AQEBCxgnV09TiUNYjr+c8qGjousCyghU/Tj/91XW5DgYoQYxhPI5vgTGkZIwDTyVP7g7yzleMnC6eOnUO/P+wI/COCLgL5AmXFRsylijhM1vbxSWU4DhrFbiNm3KJbTMbZckSqnciG8FS50OJ5GH6rt8bWzi20K53EwNF91Ij3Jku9ZFsRJEhFlfpaCxy/bsmBFtH1RVh/HgR1CJmO92b8sJrY9OTRiEHUJXAQBFqEiIBM3PXZMHTnBZpzuo/Ot+Ls8uewwmlQhXHlV9OTYRTeeL0gflBREAXxOnUZiCV10JiVUU9hIfTmpxpwuXlXpvKUbgOqO68ST7j0WQsbUetSxqbw==",
-            "MD5OfBody": "82db93b0566adaaaa8bdce80e5f0df1c",
-            "Body": "{\"conversationId\":\"5086c2af-aba4-4c5d-8cec-b4fe6eb76214\",\"recordingId\":\"097a082f-b659-4563-a7fd-c1e4579ec7ef\",\"time\":\"2023-08-08T20:07:24+00:00\",\"context\":\"ResourceNotFoundException: A(n) DELETED recording's retention data cannot be changed\"}",
+            "MessageId": "123456789987654321",
+            "ReceiptHandle": "qwertyuioppoiuytrewq123456789987654321",
+            "MD5OfBody": "123456789987654321",
+            "Body": "{}",
             "Attributes": {
-                "SenderId": "AROARO325QLFAUIOORMQP:fema-recordings-retention-extender-extendRecording-dev",
-                "ApproximateFirstReceiveTimestamp": "1691525287722",
+                "SenderId": "123456789987654321",
+                "ApproximateFirstReceiveTimestamp": "123456789987654321",
                 "ApproximateReceiveCount": "1",
-                "SentTimestamp": "1691525244666",
-                "SequenceNumber": "18879774536344048128",
-                "MessageDeduplicationId": "02dae4748ae1d44738902f6c31660fef6ce867006cbece7bfd6880506f9ae7bb",
-                "MessageGroupId": "5086c2af-aba4-4c5d-8cec-b4fe6eb76214",
-                "AWSTraceHeader": "Root=1-64d2a077-6f2d652256324d935f875168;Parent=1d69e6a9ca5b98e8;Sampled=1;Lineage=a6d02425:0|11f023d2:0"
+                "SentTimestamp": "123456789987654321",
+                "SequenceNumber": "123456789987654321",
+                "MessageDeduplicationId": "123456789987654321",
+                "MessageGroupId": "123456789987654321",
+                "AWSTraceHeader": "123456789987654321"
             }
         }
     ]
